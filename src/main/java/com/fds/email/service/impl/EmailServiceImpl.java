@@ -1,6 +1,7 @@
-package com.fds.email.service;
+package com.fds.email.service.impl;
 
 import com.fds.email.config.JavaMailSender;
+import com.fds.email.service.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.stereotype.Component;
